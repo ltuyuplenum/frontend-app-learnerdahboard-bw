@@ -34,7 +34,7 @@ export const LookingForChallengeWidget = () => {
             variant="brand"
             destination={hyperlinkDestination}
             onClick={findCoursesWidgetClicked(hyperlinkDestination)}
-            className="d-flex align-items-center"
+            className="d-flex align-items-center color-green"
           >
             {formatMessage(messages.findCoursesButton, { arrow: arrowIcon })}
           </Hyperlink>
